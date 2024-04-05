@@ -1,0 +1,733 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+ body{
+    background-color: black;
+} 
+
+.nav{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+    margin-left: 50px;
+}
+.nav ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 200px;
+    display: flex;
+}
+.nav ul li{
+    width: 60px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: rgb(241, 233, 185);
+    border-radius: 5px;
+}
+.nav ul li a:hover{
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav ul li a{
+    color: white;
+    font: 15px;
+    text-decoration: none;
+}
+.img img{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.p{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 120px;
+    font-weight: bold;
+}
+.p2{
+    color: white;
+    position: relative;
+   line-height: 30px;
+    margin-left: 120px;
+    color: antiquewhite;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    margin-left: 120px;
+    background-color: rgb(196, 211, 61);
+    position: relative;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.p3{
+    color: rgb(77, 97, 184);
+    margin-top: 220px;
+    margin-left: 600px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p3::first-letter{
+    color: rgb(255, 255, 255);
+}
+
+.box1{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    background-color: rgb(48, 44, 44);
+}
+.box1 div{
+    flex: 1;
+}
+.box1 h2{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: white;
+}
+.div1 img{
+    width: 600px;
+    height: 400px;
+}
+
+.div2 p{
+    font-size: 17px;
+    line-height: 25px;
+    padding: 20px;
+    color: rgb(204, 197, 197);
+    text-align: justify;
+}
+.btn2{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+    border: 1px solid black;
+    height: 30px;
+    background-color: rgb(182, 177, 107);
+    text-align: center;
+}
+.btn2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.p4{
+    color: rgb(108, 240, 47);
+    margin-top: 10px;
+    margin-left: 600px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box2{
+    width: 1200px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.box2 div{
+    margin: 10px;
+    border: 1px solid rgb(87, 69, 69);
+    flex: 1;
+}
+.box2 div:hover{
+   background-color:rgb(94, 57, 57);
+}
+.box2 img{
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.box2 p{
+   text-align: center;
+   line-height: 30px;
+   color: white;
+}
+.box2 .btn3{
+    width: 100px;
+    height: 25px;
+    margin-left: 80px;
+    background-color: rgb(182, 177, 107);
+}
+.box2 .btn3 a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box3{
+    width: 1200px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.box3 div{
+    margin: 10px;
+    border: 1px solid rgb(71, 66, 66);
+flex: 1;
+}
+.box3 div:hover{
+    background-color:rgb(94, 57, 57);
+ }
+
+.box3 img{
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.box3 p{
+   text-align: center;
+   line-height: 30px;
+   color: white;
+}
+.box3 .btn3{
+    width: 100px;
+    height: 25px;
+    margin-left: 80px;
+    background-color: rgb(182, 177, 107);
+}
+.box3 .btn3 a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.p5{
+    color: rgb(235, 142, 54);
+    margin-top: 10px;
+    margin-left: 530px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box4{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+}
+
+.box4 div{
+    margin: 10px;
+    border: 1px solid rgb(71, 66, 66);
+flex: 1;
+}
+ .box4 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+.box4 p{
+   text-align: center;
+   font-size: 14px;
+   color: white;
+}
+
+
+.p6{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left:580px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p6::first-letter{
+    color: blue;
+}
+.box5{
+    width: 1200px;
+    height: 350px;
+    display: flex;
+    background-color: rgb(48, 44, 44);
+    margin-top: 10px;
+}
+.box5 div{
+    flex: 1;
+}
+.box5 h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.map{
+    width: 600px;
+    height: 350px;
+}
+.name{
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(48, 44, 44);
+    height: 40px;
+    width: 550px;
+    border: 1px solid rgb(151, 148, 148);
+}
+.email{
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    margin-left: 20px;
+    background-color: rgb(48, 44, 44);
+    height: 40px;
+    width: 550px;
+    border: 1px solid rgb(151, 148, 148);
+}
+.number{
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    margin-left: 20px;
+    background-color: rgb(48, 44, 44);
+    height: 40px;
+    width: 550px;
+    border: 1px solid rgb(151, 148, 148);
+}
+.submit{
+    margin-left: 20px;
+    background-color: rgb(182, 177, 107);
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.p7{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left:580px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p7::first-letter{
+    color: rgb(134, 134, 51);
+}
+.box6{
+    margin-top: 10px;
+    width: 1250px;
+    height: 350px;
+    display: flex;
+}
+.box6 div{
+    flex: 1;   
+}
+.box6 div div{
+    border: 1PX solid rgb(41, 36, 36);
+    height: 160px;
+    margin: 10px;
+}
+.box6 div div h3{
+    color: white;
+    text-align: center;
+}
+.box6 div div p{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: rgb(233, 129, 31);
+}
+.box6 div small{
+    text-align: justify;
+    line-height: 20px;
+    color: rgb(114, 111, 108);
+}
+.hover{
+    width: 280px;
+    height: 160px;
+    transition: all;
+    transition-duration: 2s;
+}
+.hover:hover{
+    width: 300px;
+    height: 170px;
+    transition: all;
+    transition-duration: 2s;
+}
+.btn4{
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(99, 122, 53);
+}
+.btn4 a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.box7{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(32, 20, 20);
+}
+.facebook{
+    display: flex;
+    margin-left: 540px;
+}
+.facebook div{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(104, 114, 41);
+    border-radius: 50%;
+}
+.facebook div:hover{
+    background-color: black;
+}
+
+
+.face{
+    margin-top: 10px;
+    width: 20px;
+    height: 30px;
+} 
+.face:hover{
+    rotate: 360deg;
+    transition-duration: 1s;
+}
+.youtube{
+    margin-top: 15px;
+    width: 30px;
+    height: 20px;
+} 
+.youtube:hover{
+    rotate: 360deg;
+    transition-duration: 1s;
+}
+.insta{
+    margin-top: 5px;
+    width: 50px;
+    height: 40px; 
+} 
+.insta:hover{
+    rotate: 360deg;
+    transition-duration: 1s;
+}
+.link{
+    margin-top: 5px;
+    width: 50px;
+    height: 40px;
+} 
+.link:hover{
+   rotate: 360deg;
+     transition-duration: 1s;
+} 
+
+.box7 h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.box7 p{
+    text-align: center;
+    color: rgb(146, 127, 127);
+}
+.box8{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(99, 49, 49);
+    background: black;
+}
+
+.box8 p{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+@media(max-width:468px){
+    .nav {
+        flex: none;
+        flex-direction: column;
+        width: 350px;
+        margin-left: 50px;
+        background-color: red;
+    }
+    .nav ul{
+        width: 350px;
+        height: auto;
+        flex: none;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 0;
+    }
+    .nav ul li{
+      float: left;
+        width: 100%;
+        padding: 0;
+        height: auto;
+        background: black;
+
+    }
+    .nav ul li a{
+        color: white;
+    }
+
+    .img img{
+        margin-top: 210px;
+        width: 350px;
+        height: auto;
+        margin-left: 50px;
+    }
+    .p{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        margin-top: 220px;
+        margin-left: 100px;
+        font-weight: bold;
+    }
+    
+    .p2{
+        color: white;
+        position: relative;
+       line-height: 20px;
+        color: antiquewhite;
+        font-size: 10px;
+    }
+
+    .btn{
+        width: 100px;
+        height: 20px;
+        margin-left: 100px;
+        background-color: rgb(61, 48, 48);
+        position: relative;
+    }
+
+    .box1{
+        width: 350px;
+       height: auto;
+        flex: none;
+       flex-direction: column;
+        background-color: rgb(48, 44, 44);
+        margin-left: 50px;
+    }
+    .box1 h2{
+        margin-top: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+    .div2{
+        background-color: rgb(48, 44, 44);
+    }
+    .p3{
+        margin-top: 180px;
+        color: rgb(255, 255, 255);
+        margin-left:100px;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    .div1 img{
+        width: 100%;
+        height: 400px;
+    }
+     .box2{
+        width: 350px;
+        height: auto;
+        flex: none;
+        flex-direction: column;
+    }
+    .box2 div{
+        width: 100%;
+        height: auto;
+    }
+    .box2 div:hover{
+       background-color: white;
+    } 
+    .box2 p{
+        color: black;
+    }
+    .box2 img{
+        margin-left: 145px;
+    }
+    .box2 .btn3{
+        margin-left: 175px;
+    }
+
+    .box3{
+        height: auto;
+        width: 350px;
+        flex: none;
+        flex-direction: column;
+    }
+    .box3 div{
+        width: 100%;
+        height: auto;
+    } 
+    .box3 div:hover{
+       background-color: white;
+    } 
+    .box3 p{
+        color: black;
+    }
+    .p4{
+        color: rgb(255, 255, 255);
+        margin-left:100px;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+
+    .box3 img{
+        margin-left: 145px;
+    }
+    .box3 .btn3{
+        margin-left: 175px;
+    }
+    .box4{
+        height: auto;
+        width: 350px;
+        flex: none;
+        flex-direction: column;
+    }
+    .box4 div{
+        width: 100%;
+        height: auto;
+    } 
+    .box4 p{
+        text-align: justify;
+    }
+    .p5{
+        color: rgb(255, 255, 255);
+        margin-left:100px;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    .box4 img{
+        margin-left: 145px;
+    }  
+    .p6{
+        color: rgb(255, 255, 255);
+        margin-left:100px;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    .box5{
+        width: 380px;
+        height: 250px;
+       flex: none;
+       flex-direction: column;
+        background-color: rgb(48, 44, 44);
+        margin-top: 10px;
+    }
+    .box5 div{
+        flex: 1;
+    }
+    .box5 h2{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+    }
+    .name{
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: rgb(48, 44, 44);
+        height: 40px;
+        width: 325px;
+        border: 1px solid rgb(151, 148, 148);
+    }
+    .email{
+        margin-left: 20px;
+        background-color: rgb(48, 44, 44);
+        height: 40px;
+        width: 325px;
+        border: 1px solid rgb(151, 148, 148);
+    }
+    .number{
+        margin-left: 20px;
+        background-color: rgb(48, 44, 44);
+        height: 40px;
+        width: 325px;
+        border: 1px solid rgb(151, 148, 148);
+    }
+    .submit{
+        margin-left: 20px;
+        background-color: rgb(182, 177, 107);
+        height: 30px;
+        width: 150px;
+        border: 1px solid black;
+    }
+    .map{
+        width: 350px;
+        height: 250px;
+    }
+     .p7{
+        color: rgb(255, 255, 255);
+        margin-top: 300px;
+        margin-left:100px;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    .box6{
+        margin-top: 10px;
+        width: 350px;
+       flex: none;
+       flex-direction: column;
+    }
+    .hover{
+        width: 350px;
+        height: 160px;
+        transition: all;
+        transition-duration: 2s;
+    }
+    .hover:hover{
+        width: 390px;
+        height: 170px;
+        transition: all;
+        transition-duration: 2s;
+    }
+    .box7{
+        margin-top: 1050px;
+        width: 360px;
+       height: auto;
+        background-color: rgb(32, 20, 20);
+        margin-left: 45px;
+    }
+    .facebook{
+       flex: none;
+        margin-left: 40px;
+    }
+     .box7 p{
+        text-align: center;
+        color: white;
+        font-size: 11px;
+    }
+    .box8{
+        width: 370px;
+        height: 30px;
+        border: 1px solid rgb(99, 49, 49);
+        background: black;
+        margin-left: 45px;
+    }
+    .box8 p{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+}
