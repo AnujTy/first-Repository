@@ -1,0 +1,96 @@
+.reviews {
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    input[type="radio"] {
+        position: absolute;
+        left: 0;
+        bottom: 5.625rem;
+        appearance: none;
+        width: 9px;
+        height: 9px;
+        border: 2px solid $brightRed;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 300ms ease-in-out;
+
+        &:checked {
+            background-color: $brightRed;
+        }
+        &:nth-of-type(1) {
+            right: 50px;
+            margin: auto;
+        }
+        &:nth-of-type(2) {
+            right: 20px;
+            margin: auto;
+        }
+        &:nth-of-type(3) {
+            right: -10px;
+            margin: auto;
+        }
+        &:nth-of-type(4) {
+            right: -40px;
+            margin: auto;
+        }
+
+        &:hover {
+            background-color: $brightRed;
+        }
+
+        &:checked:nth-of-type(1) ~ .review {
+            left: 0;
+        }
+        &:checked:nth-of-type(2) ~ .review {
+            left: -100%;
+        }
+        &:checked:nth-of-type(3) ~ .review {
+            left: -200%;
+        }
+        &:checked:nth-of-type(4) ~ .review {
+            left: -300%;
+        }
+    }
+
+    .review {
+        align-self: flex-start;
+        position: relative;
+        display: flex;
+        margin-top: 3.875rem;
+        transition: all 400ms ease-in-out;
+        @include breakpoint-up(large) {
+            justify-content: space-between;
+        }
+
+        &__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.875rem 0;
+            padding: 0 2.99rem;
+            width: 100vw;
+
+            @include breakpoint-up(large) {
+                left: 0;
+                width: auto;
+            }
+            .profile {
+                display: block;
+                width: 4.5rem;
+            }
+        }
+    }
+
+    .button {
+        order: 4;
+        margin-top: 7.75rem;
+    }
+}

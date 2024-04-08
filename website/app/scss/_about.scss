@@ -1,0 +1,105 @@
+.about{
+
+    margin-top: 6.56rem;
+
+
+    @include breakpoint-up(medium){
+        margin-left: 10rem;
+        margin-right: 10rem;
+        
+        
+    }
+    @include breakpoint-up(large){
+        display: flex; 
+        gap: 0 9.375rem;
+        
+    }
+    
+    &__manage{
+        flex: 1;
+        margin: auto 2.75rem;
+        text-align: center;
+
+        @include breakpoint-up(large){
+           margin: 0;
+        text-align: start;
+            
+        }
+
+
+        h2{
+            font-size: 1.5rem; 
+            margin-bottom: 1.5rem;
+
+            @include breakpoint-up(large){
+                margin-bottom: 2rem;
+                font-size: $font-lg;
+                line-height: 2.75rem;
+                 
+             }
+        }
+
+        p{
+            margin-bottom: 3.5rem;
+
+            @include breakpoint-up(large){
+            margin-bottom: 0;
+             text-align: start;
+                 
+             }
+        }
+
+    }
+
+    .features{
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+        gap:  3.5rem 0;
+        margin-left: 1rem;
+        margin-right: 1.75rem;
+
+        @include breakpoint-up(large){
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .feature{
+
+        &__headline{
+            background-color: $veryPaleRed;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem ;
+            margin-bottom: 1rem;
+            span:first-child{
+                display: inline-block;
+                width: 4.25rem;
+                height: 2.5rem;
+                margin: auto;
+                line-height: 2.5rem;
+                text-align: center;
+                color: $veryLightGray;
+                background-color: $brightRed;
+                border-radius: 1.5rem;             
+            }
+            
+            span:last-child{
+                margin-left: 10px;
+                font-size: 1rem;
+                font-weight: 500; 
+                color: $darkBlue;
+                vertical-align: middle;
+                
+
+        }
+
+    }
+
+
+    p{
+        text-align: left;
+    }
+        }
+    }
+
+}
+

@@ -1,0 +1,112 @@
+// Font Family
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    width: 100vw;
+}
+
+body {
+    background: url(../images/bg-tablet-pattern.svg) $veryLightGray;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: 50px -150px;
+    overflow-x: hidden;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    line-height: 1.625;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: $darkBlue;
+}
+
+h1 {
+    font-size: $font-very-lg;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: $font-lg;
+}
+
+p {
+    color: $darkGrayishBlue;
+    font-size: $font-small;
+    line-height: 2rem;
+    text-align: center;
+}
+
+button,
+.button {
+    display: inline-block;
+    width: 137px;
+    height: 44px;
+    color: $veryLightGray;
+    background-color: $brightRed;
+    border: none;
+    border-radius: 26px;
+    box-shadow: 0px 1px 3px 1px $brightRed;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+// flexbox
+.flex {
+    display: flex;
+
+    &-dir-cl {
+        flex-direction: column;
+    }
+
+    &__jc-c {
+        justify-content: center;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+}
+
+// Container
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    @include breakpoint-up(large) {
+        padding-left: 10.5rem !important;
+        padding-right: 10.5rem !important;
+    }
+}
+
+//visibility
+.hide-for-mobile {
+    @include breakpoint-down(medium) {
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @include breakpoint-up(large) {
+        display: none;
+    }
+}

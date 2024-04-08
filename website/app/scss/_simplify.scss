@@ -1,0 +1,36 @@
+.simplify {
+    background-color: $brightRed;
+    text-align: center;
+
+    @include breakpoint-up(large) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 4.375rem !important;
+        padding-bottom: 4.375rem !important;
+    }
+
+    h1 {
+        color: $veryLightGray;
+        padding-top: 6.25rem;
+        padding-bottom: 1.5rem;
+        line-height: 3.5rem;
+
+        @include breakpoint-up(large) {
+            padding-top: 0;
+            padding-bottom: 0;
+            width: 50%;
+        }
+    }
+    .button {
+        margin-bottom: 5.625rem;
+        color: $brightRed;
+        background-color: $veryLightGray;
+
+        @include breakpoint-up(large) {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    }
+    
+}

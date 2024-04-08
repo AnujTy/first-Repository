@@ -1,0 +1,120 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 1.5rem 1.5rem;
+    background-color: $veryDarkBlue;
+    gap: 3rem 0;
+    text-align: center;
+
+    @include breakpoint-up(large) {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+            "logo menu mailbox"
+            "social menu copyright";
+    }
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+        height: 2.75rem;
+
+        @include breakpoint-up(large) {
+            grid-area: mailbox;
+        }
+
+        .mail {
+            padding-left: 1.125rem;
+            width: 15rem;
+            height: auto;
+            color: black;
+            background-color: $veryLightGray;
+            border: none;
+            border-radius: 26px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+
+            &:hover:focus:active {
+                border: 1px solid $brightRed;
+            }
+
+            &::placeholder {
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+        }
+
+        .button {
+            width: 5rem;
+            box-shadow: none;
+        }
+    }
+
+    .row2 {
+        display: flex;
+        line-height: 2.125rem;
+
+        @include breakpoint-up(large) {
+            grid-area: menu;
+        }
+
+        > .col1 {
+            flex: 1;
+            a {
+                display: block;
+                color: $veryLightGray;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+
+        > .col2 {
+            flex: 1;
+            a {
+                display: block;
+                color: $veryLightGray;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        height: 2.25rem;
+
+        @include breakpoint-up(large) {
+            grid-area: social;
+        }
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        img:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+    .manage__logo {
+        margin: auto;
+        width: 10rem;
+        height: 1.5rem;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+
+        @include breakpoint-up(large) {
+            grid-area: logo;
+            margin: 0;
+        }
+    }
+    .copyright {
+        color: $veryLightGray;
+        @include breakpoint-up(large) {
+            grid-area: copyright;
+            text-align: right;
+        }
+    }
+}

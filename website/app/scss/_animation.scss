@@ -1,0 +1,43 @@
+// fade-in and fade-out for mobile menu layout:-
+@keyframes fade-in {
+    from {
+        visibility: visible;
+        opacity: 0;
+
+    }
+
+    to {
+        visibility: visible;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        visibility: visible;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.fade-in {
+    animation: fade-in 300ms ease-in-out forwards;
+}
+
+.fade-out {
+    animation: fade-out 300ms ease-in-out forwards;
+}
+
+// Slider Card animation: 
+
+@keyframes slide {
+    from{
+        
+
+    }
+    to{
+
+    }
+}
