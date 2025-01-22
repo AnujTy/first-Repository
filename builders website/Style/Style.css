@@ -1,6 +1,37 @@
-body{
-    box-sizing: border-box;
+*{
     padding: 0;
     margin: 0;
-    background-color: rgb(192, 192, 201);
+}
+.img1{
+      height: 75px;
+      width: 160px;
+      margin-left: 120px;
+}
+nav{
+    background-color: rgb(246, 248, 248);
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   
+} 
+nav ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 200px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+.icon{
+    font-size: 30px;
+    margin-right: 40px;
+    display: none;
 }
