@@ -1,20 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     background-color: aqua;
     display: flex;
     justify-content: space-around;
-   align-items: center;
+    align-items: center;
 }
-header div a{
+
+header div a {
     text-decoration: none;
     color: black;
     margin-right: 30px;
     font-size: 18px;
 }
-.get{
+
+.get {
     width: 140px;
     height: 40px;
     background-color: rgb(250, 253, 65);
@@ -22,39 +25,44 @@ header div a{
     transition: 0.8s all;
     font-weight: bold;
 }
-.get:hover{
-   background-color: white;
-   border-bottom: 2px solid aqua;
+
+.get:hover {
+    background-color: white;
+    border-bottom: 2px solid aqua;
 }
 
-.img1{
-      height: 75px;
-      width: 160px;
-      margin-left: 120px;
+.img1 {
+    height: 75px;
+    width: 160px;
+    margin-left: 120px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-   align-items: center;
-   
-} 
-nav ul{
+    align-items: center;
+
+}
+
+nav ul {
     display: flex;
     gap: 40px;
     margin-right: 200px;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     font-size: 16px;
     color: black;
-     text-transform: uppercase;
-     font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.icon{
+.icon {
     font-size: 30px;
     margin-right: 40px;
     display: none;
@@ -62,43 +70,84 @@ ul li a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:768px) {
-header{
-    display: none;
-}
-nav ul{
-    display: none;
-}
-.img1{
-    margin-left: 20px;
-}
-.icon{
+.showData{
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: green;
+    width: 70%;
+    text-align: center;
+    height: 250px;
+    position: absolute;
 }
+
+
+
+
+
+
+ @media (max-width:992px){
+
+    header {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .img1 {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: flex;
+    }
+}
+
+
+@media (max-width:768px){
+
+    header {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .img1 {
+        margin-left: 20px;
+    }
+
+    .icon {
+        display: flex;
+    }
+}
+
+@media (max-width:480px){
+
+    header {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .img1 {
+        margin-left: 20px;
+        width: 100px;
+        height: 50px;
+    }
+
+    .icon {
+        display: flex;
+        font-size: 18px;
+        gap: 10px;
+    }
+   /* .showData{
+    border: 1px solid black;
+   } */
 }
