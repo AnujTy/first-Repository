@@ -162,7 +162,13 @@ ul li a {
 .img3 {
     width: 100%;
     height: 200px;
-    border-bottom: 2px solid yellow;
+    border-bottom: 4px solid yellow;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+.img3:hover{
+    transition-duration: 3s;
+    transform: scale(1.1,1.1);
 }
 
 .box{
@@ -181,7 +187,7 @@ ul li a {
     text-align: justify;
     padding: 10px;
     cursor: pointer;
-    box-shadow: 0px 3px 3px rgb(51, 42, 42);
+    box-shadow: 0px 3px 3px 3px rgb(230, 225, 225);
     border-radius: 5px;
 } 
 .box section img{
@@ -283,6 +289,15 @@ ul li a {
         border: 1px solid black;
         height: auto;
     }
+
+    .box{
+        height: auto;
+        width: 100%;
+       flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 
@@ -370,6 +385,14 @@ ul li a {
         border: 1px solid black;
         height: auto;
     }
+    .box{
+        height: auto;
+        width: 100%;
+       flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 @media (max-width:480px) {
@@ -456,5 +479,14 @@ ul li a {
         justify-content: space-around;
         border: 1px solid black;
         height: auto;
+    }
+
+    .box{
+        height: auto;
+        width: 100%;
+       flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
     }
 }
