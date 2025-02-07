@@ -134,6 +134,24 @@ ul li a {
     border-radius: 2px;
 }
 
+
+.title1{
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    line-height:0%;
+    font-family: "Dancing Script";
+    position: relative;
+}
+.title1 h2::after{
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    height: 4px;
+    width: 200px;
+    background-color: blue;
+    margin-left: -300px;
+}
 #container {
     margin-top: 20px;
     display: flex;
