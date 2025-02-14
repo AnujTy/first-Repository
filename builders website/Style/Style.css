@@ -113,7 +113,7 @@ ul li a {
 
 .container section img {
     width: 100%;
-    height: auto;
+    height: 400px;
 }
 
 .container section h3 {
@@ -135,15 +135,16 @@ ul li a {
 }
 
 
-.title1{
+.title1 {
     font-weight: bold;
     margin-top: 50px;
     text-align: center;
-    line-height:0%;
+    line-height: 0%;
     font-family: "Dancing Script";
     position: relative;
 }
-.title1 h2::after{
+
+.title1 h2::after {
     position: absolute;
     content: "";
     bottom: -20px;
@@ -152,6 +153,7 @@ ul li a {
     background-color: blue;
     margin-left: -300px;
 }
+
 #container {
     margin-top: 20px;
     display: flex;
@@ -168,11 +170,12 @@ ul li a {
     height: auto;
     border: 1px solid rgb(216, 211, 211);
 }
-#container div:hover{
+
+#container div:hover {
     border: 1px solid black;
 }
 
-#container div p{
+#container div p {
     align-items: center;
     justify-content: center;
 }
@@ -184,12 +187,13 @@ ul li a {
     transition-duration: 3s;
     cursor: pointer;
 }
-.img3:hover{
+
+.img3:hover {
     transition-duration: 3s;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
-.box{
+.box {
     height: auto;
     width: 100%;
     display: flex;
@@ -197,7 +201,8 @@ ul li a {
     justify-content: center;
     gap: 30px;
 }
-.box section{
+
+.box section {
     margin-top: 30px;
     height: auto;
     width: 380px;
@@ -207,14 +212,15 @@ ul li a {
     cursor: pointer;
     box-shadow: 0px 3px 3px 3px rgb(230, 225, 225);
     border-radius: 5px;
-} 
-.box section img{
+}
+
+.box section img {
     margin-bottom: 30px;
     width: 100%;
     height: auto;
 }
 
-.container3{
+.container3 {
     background-image: url(../image/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,11 +233,13 @@ ul li a {
     row-gap: 25px;
     column-gap: 25px;
 }
-.imgcard1{
+
+.imgcard1 {
     height: 250px;
     width: 100%;
 }
-.container3 div{
+
+.container3 div {
     text-align: center;
     align-content: center;
     border: 1px solid red;
@@ -324,17 +332,17 @@ ul li a {
 
     #container {
         margin-top: 20px;
-       flex-direction: column;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         border: 1px solid black;
         height: auto;
     }
 
-    .box{
+    .box {
         height: auto;
         width: 100%;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 30px;
@@ -420,16 +428,17 @@ ul li a {
 
     #container {
         margin-top: 20px;
-       flex-direction: column;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         border: 1px solid black;
         height: auto;
     }
-    .box{
+
+    .box {
         height: auto;
         width: 100%;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 30px;
@@ -515,17 +524,17 @@ ul li a {
 
     #container {
         margin-top: 20px;
-       flex-direction: column;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         border: 1px solid black;
         height: auto;
     }
 
-    .box{
+    .box {
         height: auto;
         width: 100%;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 30px;
