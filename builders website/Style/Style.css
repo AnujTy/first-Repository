@@ -247,7 +247,14 @@ ul li a {
     height: 250px;
 }
 
-
+.slider{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(235, 220, 13);
+}
 
 
 
