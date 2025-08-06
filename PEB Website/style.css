@@ -6,7 +6,7 @@ body {
 
 nav {
     display: flex;
-    background-color: rgb(65, 27, 27);
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
     position: sticky;
     top: 0;
@@ -25,16 +25,16 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-inline: 20px;
-    color: rgb(252, 249, 249);
+    color: rgb(0, 0, 0);
 }
 
 ul li a:hover,
 ul li a.active {
-    color: yellow;
-    border-bottom: 2px solid white;
+    color: rgb(71, 47, 207);
+    border-bottom: 2px solid rgb(60, 255, 0);
 }
 
 .logo {
@@ -87,17 +87,12 @@ ul li a.active {
     background-size: auto;
 }
 
-.font {
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 300px;
-}
-
 /* image end */
 
 
 /* box2 start */
 .box2 {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -134,13 +129,13 @@ ul li {
 
 /* container start */
 .container {
-    margin-top: 20px;
+    margin-top: 40px;
     display: grid;
-    /* border: 1px solid black; */
     grid-template-columns: 340px 340px 340px;
     grid-template-rows: 500px 500px;
     justify-content: center;
     gap: 30px;
+    background-color: antiquewhite;
 
 }
 
@@ -175,7 +170,7 @@ p {
 
 .btn:hover {
     background-color: rgb(219, 255, 146);
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 /* Container end */
@@ -201,16 +196,17 @@ background-color: rgb(177, 112, 112);;
     height: 100%;
     transition-duration: 2s;
 }
-.browser1 img:hover{
+/* .browser1 img:hover{
 transition-duration: 2s;
 transform:scale(1.1,1.1);
-}
+} */
 .explore{
     color: white;
-    font-size: 20px;
+    font-size: 12px;
     height: 90px;
     background-color:rgb(177, 112, 112);
     margin-bottom: -15px;
+    margin-top: 50px;
 }
 /* container2 end */
 
@@ -219,7 +215,8 @@ transform:scale(1.1,1.1);
 .header {
     display: flex;
     justify-content: center;
-      margin-top: 100px;
+      margin-top: 20px;
+      background-color: antiquewhite;
 }
 
 .header section {
@@ -260,15 +257,13 @@ transform:scale(1.1,1.1);
     text-transform: uppercase;
 }
 
-.socialicon section{
-    background-color: grey;
-}
+/* .socialicon section{
+    background-color: rgb(161, 196, 35);
+} */
 .socialicon img{
-    margin-top: 5px;
-    margin-left: 5px;
- height: 40px;
- width: 40px;
- border-radius: 100%;
+    margin-right: 20px;
+ height: 50px;
+ width: 80px;
  transition-duration: 2s;
 }
 .socialicon img:hover{
