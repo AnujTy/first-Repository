@@ -250,27 +250,25 @@ transform:scale(1.1,1.1);
 /* .socialicon section{
     background-color: rgb(161, 196, 35);
 } */
-
-.socialicon {
+.socialicon{
     display: flex;
-    align-items: end;
-    gap: 10px;
-   border: 1 px solid black;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.socialicon section {
-    height: 50px;
-    width: 50px;
-
-}
 .socialicon img{
-    margin-right: 20px;
- height: 50px;
- width: 80px;
- transition-duration: 2s;
+    width: 70px;
+    height: 40px;
+    gap:0px;
+    transition-duration: 0.5s;
+}
+
+.whatsapp img{
+     width: 45px;
+    height: 40px;
 }
 .socialicon img:hover{
-    transition-duration: 2s;
-    transform: rotate(360deg);
+    transition-duration: 0.5s;
+transform:rotate(360deg);
 }
-
