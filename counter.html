@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./counter.css">
+</head>
+
+<body>
+    <div class="counter-container">
+        <div class="counter" data-target="50"></div>
+        <span>facebook fan</span>
+    </div>
+
+    <div class="counter-container">
+        <div class="counter" data-target="300"></div>
+        <span>facebook fan</span>
+    </div>
+
+    <div class="counter-container">
+        <div class="counter" data-target="250"></div>
+        <span>facebook fan</span>
+    </div>
+    <!-- counter -->
+
+
+    <div class="zoom-wrapper">
+        <img src="./image/campus3.jfif" alt="img">
+    </div>
+    <!-- card hover -->
+
+
+    <!-- mail.api connect -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="61efa380-b009-405f-950c-8ff7e5c0b5d1">
+
+        <input type="text" name="name" required placeholder="Enter the name">
+        <input type="email" name="email" required>
+        <textarea name="message" required></textarea>
+        <button type="submit">Submit Form</button>
+    </form>
+
+
+    <!-- button hover -->
+
+    <div class="middle">
+        <button class="btn btn1">Hover me</button>
+        <button class="btn btn2">Hover me</button>
+    </div>
+
+    <!-- sound type -->
+
+    <input placeholder="type something...." type="text" id="text">
+    <button onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(text.value))">bjao</button>
+
+
+    <!-- card effect -->
+     <div class="box3">
+    <div class="image">
+        <img src="./image/campus2.jfif" alt="">
+        <div class="content">
+            <h1>image hover</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="./counter.js"></script>
+</body>
+
+</html>
