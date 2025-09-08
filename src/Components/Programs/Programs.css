@@ -1,0 +1,71 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.program {
+    flex-basis: 31%;
+    position: relative;
+      transition-duration: 0.5s;
+       overflow: hidden;
+}
+
+.program:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(1, 5, 36, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #b3ff00;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+
+.program:hover .caption {
+    opacity: 5;
+    padding-top: 0;
+
+}
+
+.caption img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* ------medea query 650------------ */
+
+@media (max-width:650px) {
+    .programs {
+        flex-direction: column;
+    }
+
+    .program {
+        flex-basis: 100%;
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+    }
+}

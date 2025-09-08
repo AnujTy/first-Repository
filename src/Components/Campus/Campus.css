@@ -1,0 +1,38 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40xp;
+      gap: 10px;
+}
+
+.gallery img{
+    width: 25%;
+    height: 250px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.5s;
+    overflow: hidden;
+}
+.gallery img:hover{
+    transform: scale(1.1,1.1);
+}
+/* ------medea query 800----------- */
+
+@media (max-width:800px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+
+    .gallery img{
+        width: 48%;
+        height: 150px;
+        margin-bottom: 25px;
+    }
+}
